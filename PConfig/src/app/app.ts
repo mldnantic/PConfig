@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { Partlist } from './partlist/partlist';
+import { Partlist } from './components/partlist/partlist';
 
 @Component({
-  selector: 'app-app',
+  selector: 'app-root',
   imports: [Partlist],
   templateUrl: './app.html',
   styleUrl: './app.scss'

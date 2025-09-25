@@ -1,4 +1,4 @@
-export interface GPU {
+export interface Part {
     id: number,
     name: string,
     vram: number,
