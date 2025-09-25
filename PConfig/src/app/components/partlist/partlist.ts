@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Partservice } from '../../services/partservice';
+import { Part } from '../../models/part';
 
 @Component({
   selector: 'app-partlist',
@@ -10,12 +11,12 @@ export class Partlist implements OnInit{
 
   title = "Most popular GPUs";
 
-  gpus: string[] = ["GTX 1080 Ti", "Radeon RX 6700 XT", "Intel Arc B580"]; 
+  gpus: Part[] = [];
 
   constructor(private partService: Partservice) { }
 
   ngOnInit(): void {
-    //this.partService.getAll().subscribe(gpus => console.log(gpus));
+    this.partService.getAll().subscribe(parts => this.gpus = parts);
   }
 
 }

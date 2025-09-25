@@ -8,13 +8,11 @@ import { environment } from '../../environments/environment';
 })
 export class Partservice {
 
-  // constructor(private httpClient: HttpClient) {
+  constructor(private httpClient: HttpClient) { }
 
-  // }
-
-  // getAll() {
-  //   return this.httpClient
-  //   .get<Part[]>(environment.api + "/gpus");
-  // }
+  getAll() {
+    return this.httpClient
+    .get<Part[]>(environment.api + "/gpus");
+  }
 
 }
