@@ -1,0 +1,25 @@
+{
+    "gpus": [
+        {
+            "id": 1,
+            "name": "GTX 1080 Ti",
+            "vram": 11,
+            "cores": 3584,
+            "url": "https://www.techpowerup.com/gpu-specs/geforce-gtx-1080-ti.c2877"
+        },
+        {
+            "id": 2,
+            "name": "Radeon RX 6700 XT",
+            "vram": 12,
+            "cores": 2560,
+            "url": "https://www.techpowerup.com/gpu-specs/radeon-rx-6700-xt.c3695"
+        },
+        {
+            "id": 3,
+            "name": "Intel Arc B580",
+            "vram": 12,
+            "cores": 2560,
+            "url": "https://www.techpowerup.com/gpu-specs/arc-b580.c4244"
+        }
+    ]
+}

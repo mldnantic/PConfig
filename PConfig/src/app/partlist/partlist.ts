@@ -1,9 +1,8 @@
-import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-partlist',
-  imports: [NgFor],
+  imports: [],
   templateUrl: './partlist.html',
   styleUrl: './partlist.scss'
 })
