@@ -4,8 +4,8 @@ import { Part } from '../../models/part';
 
 @Component({
   selector: 'app-partlist',
-  templateUrl: './partlist.html',
-  styleUrl: './partlist.scss'
+  templateUrl: './partlist.component.html',
+  styleUrl: './partlist.component.scss'
 })
 export class Partlist implements OnInit{
 

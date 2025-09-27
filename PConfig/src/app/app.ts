@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Partlist } from './components/partlist/partlist';
+import { Partlist } from './components/partlist/partlist.component';
 
 @Component({
   selector: 'app-root',
